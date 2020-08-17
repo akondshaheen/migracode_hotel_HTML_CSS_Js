@@ -1,0 +1,250 @@
+@media screen and (max-width: 1024px) {
+  #nav_logo{
+    width: 70px;
+  }
+  #search{
+    width: 165px;
+  } 
+  #login1{
+    
+    width: 70px;
+    font-size: 14px;
+  }
+  #login2{
+    width: 70px;
+    font-size: 14px;
+  }
+  .myButton{
+    padding: 6px 10px;  
+  }
+
+   
+  
+
+  #booking_form{
+    
+    /*padding: 50px 20px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .booking_input{
+    margin-bottom: 20px;
+    width: 40%;
+  }
+  .booking_input:first-of-type{
+    width: 40%;
+   
+  }
+  #person{
+    margin-right: 8px;
+    width: 41.5%;
+    text-align-last: center;  }
+  
+    #booking_search_button{
+    width: 30%;
+  }
+  
+  #side_by_side{
+    position: relative;
+  }
+
+  #confidence{
+    position: relative;
+    margin-left: -100px;
+    background-color: white;
+    height: 160px;
+    width: 710px;
+    padding-bottom: 10px;
+    font-size: 13.5px;
+    line-height: .6;
+
+  }
+
+  .card{
+    width: 30%;
+  }
+  
+
+ }
+  @media screen and (max-width: 768px) {
+
+    /*Q1: not sure how it comes center. how width shift it to the middle.*/
+    #travel_hazard{
+      margin-top: 18px;
+      width: 60%;
+      padding: 4px;
+      font-size: 14px;
+    }
+    #travel_advisory{
+      font-size: 14px;
+    }
+.search_box{
+  margin-top: -40px;
+}
+
+form.search_box input[type=text] {
+    
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid grey;
+  float: left;
+  
+  background: #f1f1f1;
+  }
+  form.search_box button {
+    float: left;
+    padding: 6px;
+    background: #2196F3;
+    color: white;
+    font-size: 14px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+
+  #breaking-news-colour{
+    width: 100%;
+    
+  }
+
+#toggle_bar{
+  display: block;
+  cursor: pointer;
+  float: left;
+  margin: 5px 10px 0px 5px;
+  
+}
+#toggle{
+  text-align: center;
+  width: 100%;
+}
+
+
+#responsive_nav{
+  margin: 0 30px 0 0;
+  
+  width: 100%;
+  display: none;
+}
+
+
+
+#responsive_nav a{
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  line-height: 20px;
+  border-bottom: 1px solid rebeccapurple;
+  
+}
+#toggle:checked + #responsive_nav{
+  display: block;
+}
+
+#login1{
+  width: 50px;
+  padding: 10px;
+  font-size: 11px;
+  border-radius: 3px;
+  
+}
+#login2{
+  width: 50px;
+  font-size: 11px;
+  padding: 10px;
+  border-radius: 3px;
+
+}
+
+#confidence{
+  opacity: 70%;
+  margin-left: -300px;
+  font-size: 10px;
+  line-height: .2;
+
+}
+
+#confidence_image{
+  /* margin-left: -90px; */
+ height: 200px;
+ width: 400px;
+  
+}
+
+#app{
+  
+height: 300px;
+}
+.app_icon{
+  display: flex;
+  
+  flex-direction: column;
+align-items: center;
+
+}
+
+.fa-desktop{
+  margin-bottom: 10px;
+}
+
+.counting_container{
+  width: 28%;
+}
+.counting_container h1{
+ font-size: 8vw;
+}
+
+.footer_option{
+  width: 28vw;
+}
+
+.newsletter input{
+width: 150px;
+}
+.newsletter input::placeholder{
+  font-size: 15px;
+  padding: 3px;
+}
+.topnav .login-container button {
+      
+  margin-right: 5px;
+ 
+  
+}
+}
+
+@media screen and (max-width: 414px) {
+  #toggle_bar{
+    
+    margin: 5px 5px 0px 5px;
+    
+  }
+  #login1{
+    width: 36px;
+    padding: 10px;
+    font-size: 8px;
+    border-radius: 3px;
+    
+  }
+  #login2{
+    width: 36px;
+    font-size: 8px;
+    padding: 10px;
+    border-radius: 3px;
+  
+  }
+#nav_logo{
+  width: 60px;
+}
+#app{
+  
+  height: 320px;
+  }
+  .counting_container{
+    width: 25vw;
+  }
+}
+
+    

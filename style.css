@@ -1,0 +1,533 @@
+#top_information{
+    width: 100%;
+    height: 90px;
+    background-color:#592d0d;
+}
+#travel_hazard{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+#travel_advisory{
+    color: rgb(255, 153, 0);
+    font-size: 24px;
+  }
+
+/***breaking news**/
+
+.breaking-news-headline {
+    display: block;
+    position: absolute;
+    font-family: arial;
+    font-size: 12px;
+    margin-top: -22px;
+    color: white;
+    margin-left: 120px;
+    
+    
+  }
+  
+  .breaking-news-title {
+    background-color: #FFEA00;
+    display: block;
+    height: 20px;  
+    width: 90px;
+    font-family: arial;
+    font-size: 11px;
+    position: absolute; 
+    top: 0px;
+    margin-top: 0px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    z-index: 3;
+    &:before {
+      content:"";
+      position: absolute;
+      display: block;
+      width: 0px;
+      height: 0px;
+      top: 0;
+      left: -12px;
+      border-left:12px solid transparent;
+      border-right: 0px solid transparent;
+      border-bottom: 30px solid #FFEA00;
+    }
+    &:after {
+      content:"";
+      position: absolute;
+      display: block;
+      width: 0px;
+      height: 0px;
+      right: -12px;
+      top: 0;
+      border-right:12px solid transparent;
+      border-left: 0px solid transparent;
+      border-top: 30px solid #FFEA00;
+    }
+  }
+  
+  #breaking-news-colour {
+    height: 30px;
+    width: 62vw;
+    background-color: #3399FF;
+    
+    
+  }
+  
+  #breaking-news-container {
+    height: 30px;
+    width: 694px;
+    top: 62px;
+    overflow: hidden;
+    position: absolute;
+    &:before {
+      content: "";
+      width: 30px;
+      height: 30px;
+      background-color: #3399FF;
+      position: absolute;
+      z-index: 2;
+    }
+  }
+  
+  
+  .fadein {
+    -webkit-animation-name: fadein;
+    -moz-animation-name: fadein;
+    -o-animation-name: fadein;
+    animation-name: fadein;
+  }
+  
+  
+  
+  .slidein {
+    -webkit-animation-name: slidein;
+    -moz-animation-name: slidein;
+    -o-animation-name: slidein;
+    animation-name: slidein;
+  }
+  
+  @keyframes marquee {
+    0% { 
+      left: 0;
+    }
+    20% { 
+      left: 0; 
+    }
+    100% { left: -100%; }
+  }
+  
+  .marquee {
+    animation: marquee 10s linear infinite;
+   
+    -webkit-animation-delay: 0.5s; 
+    animation-delay: 3s;
+  }
+  
+ 
+  .slideup {
+    -webkit-animation-name: slideup;
+    -moz-animation-name: slideup;
+    -o-animation-name: slideup;
+    animation-name: slideup;
+  }
+ 
+  /** Navbar
+
+  * {box-sizing: border-box;}
+
+
+
+
+
+
+  /*Search box*/
+.search_box{
+float: right;
+margin-right: 10px;
+
+  }
+
+
+form.search_box input[type=text] {
+    
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  
+  background: #f1f1f1;
+  }
+  form.search_box button {
+    float: left;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+
+  #nav_logo{
+    width: 100px; 
+    float: left; 
+    height: 48px;
+  }
+
+
+/* Style the navbar */
+.topnav {
+  
+    overflow: hidden;
+    background-color: #e9e9e9;
+    display: inline;;
+    display: block;
+  }
+ /* Navbar links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    
+
+  }
+  
+  /* Navbar links on mouse-over */
+  .topnav a:hover {
+    background-color: cyan;
+
+    color: black;
+  
+  }
+  
+  /* Active/current link */
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  /* Style the input container 
+  .topnav .login-container {
+    float: right;
+  }*/
+
+  .topnav .merge_button {
+    display: flex;
+    float: right;
+  }
+  
+  /* Style the input field inside the navbar */
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 150px; /* adjust as needed (as long as it doesn't break the topnav) */
+  }
+  
+  /* Style the button inside the input container */
+  .topnav .login-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-left: 5px;
+    background: rgb(20, 223, 88);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+
+  }
+  
+  .topnav .login-container button:hover {
+    background: #ccc;
+  }
+  
+  /** Add responsiveness - On small screens, display the navbar vertically instead of horizontally 
+  @media screen and (max-width: 600px) {
+    .topnav .login-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .login-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }**/
+  
+ /* booking button*/
+ 
+ .myButton {
+        box-shadow: 0px 1px 0px 0px #f0f7fa ;
+        background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+        background-color: #33bdef;
+        border-radius: 6px;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 6px 24px;
+        text-decoration: none;
+        text-shadow: 0px -1px 0px #5b6178;
+        border: none;
+        
+        margin-top: 8px;
+        outline: none;
+    
+}
+
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+    background-color:#019ad2;
+    
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+.hotel_picture{
+  width: 500%;
+  height: 400px;
+
+  background-repeat: repeat-x;
+  animation: sun 50s linear infinite;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: block;
+ 
+}
+@keyframes sun{
+  100%{
+    transform: translateX(-3400px);
+  }
+}
+  .booking{
+    position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+  }
+
+/*Booking form*/
+#booking_form{
+ 
+  /*margin: 30px;*/
+padding:  50px 20px;
+ background-color: rgb(1,154,210, .2);
+border-radius: 25px 10px;
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+
+}
+
+.booking_input{
+ padding: 3px;
+  width: 130px;
+  border-radius: 15px;
+  margin-right: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 2px 4px 3px;
+  outline: none;
+  text-align: center;
+ 
+}
+.booking_input:first-of-type{
+  width: 145px;
+ 
+}
+
+#person{
+  padding: 6px;
+  border-radius: 15px;
+  width: auto;
+  margin-right: 27px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 2px 4px 3px;
+  outline: none;
+}
+
+/*confidence*/
+#side_by_side{
+  display: flex;
+  margin-top: 30px;
+}
+#confidence_image{
+  border-radius: 5px;
+  width: 40%;
+  float: left;
+}
+
+#confidence{
+  border-radius: 5px;
+  align-self: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 200px;
+ 
+  display: block;
+  overflow: hidden;
+  padding: 10px 20px 10px 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+#confidence p{
+  line-height: 1.5;
+  padding-bottom: 30px;
+}
+#more{
+  display: none;
+}
+#cards{
+  margin-top: 30px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ border-radius: 5px;
+ margin-bottom: 30px;
+ 
+}
+.card{
+  width: 30vw;
+  border-radius: 45px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(238, 148, 116);
+  
+}
+.card_image{
+border-radius: 45px 5px; 
+ width:90%;
+
+}
+
+.container p{
+  padding: 10px;
+}
+
+.card h4{
+  font-size: 90%;
+  text-align: center;
+  font-family: cursive;
+}
+
+#app{
+  padding-top: 20px;
+background-color: rgb(74, 175, 243);
+text-align: center;
+height: 220px;
+margin-top: 20px;
+
+}
+.fa-desktop,.fa-mobile{
+  width: 200px;
+  padding: 15px;
+  border-radius: 40px;
+  background-color:white;
+  color:black;
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+
+#counting{
+  position: relative;
+  text-align: center;
+  background-color: #ccf2ff;
+  color: red;
+}
+#container{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  bottom: 100px;
+  justify-content: space-around;
+  height: 200px;
+  
+  
+
+}
+
+.counting_container{
+  border-radius: 10px;
+  background-color: rgb(241, 237, 229);
+  padding: 10px;
+  width: 200px;
+  margin-top: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  ;
+}
+.counting_container:hover{
+  color: #8d8e92;
+}
+
+.counting_container h1{
+  font-size: 55px;
+  font-family: cursive;
+}
+
+.counting_container p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+time{
+  font-size: 0.7rem;
+}
+
+
+footer{
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+
+}
+footer h1{
+  color: white;
+}
+footer p{
+  color: #666666;
+}
+
+
+
+/*toggle bar*/
+#toggle_bar{
+  font-size: 26px;
+  margin: 10px;
+  display: none;
+}
+
+#toggle{
+  display: none;
+}
+
+body{
+  overflow-x: hidden;
+}

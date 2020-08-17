@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Migracode is offering free accomodation.</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+  <header>
+    <div id="top_information">
+      <i class="fa fa-phone" style="color: white; margin-left: 20px; margin-top: 10px;"></i>
+      <span style="color: white;">90088387782 </span>
+      <br>
+      <br>
+      <div id="travel_hazard">
+        <i class="fa" style="color:rgb(255, 153, 0); margin-left: 20px;"></i>
+        <a id="travel_advisory"
+          href="https://travel.state.gov/content/travel/en/traveladvisories/ea/covid-19-information.html">Travel
+          Advisory:Covid-19</a>
+      </div>
+      <div id="breaking_news">
+        <div id="breaking-news-container" style="top: ;">
+          <div id="breaking-news-colour" class="slideup animated">
+
+          </div>
+          <span class="breaking-news-title delay-animated slidein">
+            // BREAKING //
+          </span>
+          <a class="breaking-news-headline delay-animated2 fadein marquee">
+            Coronavirus: European Union seals borders to most outsiders </a>
+        </div>
+      </div>
+      <form action="https://www.google.com/search" class="search_box" method="GET">
+        <input type="text" name="q" id="search" placeholder="Search...">
+        <button><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+
+    <!--NAVBAR-->
+    <div class="topnav">
+
+      <img src="image/logoEdited.jpg" id="nav_logo" alt="">
+      <label id="toggle_bar" for="toggle">&#9776</label>
+      <input type="checkbox" id="toggle">
+
+      <div id="responsive_nav">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="hotels.html">Hotel</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class=" merge_button">
+
+        <div class="login-container">
+          <form action="/action_page.php">
+            <input id="login1" type="text" placeholder="Username" name="username">
+            <input id="login2" type="text" placeholder="Password" name="psw">
+            <button class="myButton firstButton" id="nav_login_button" type="submit">Login</button>
+          </form>
+        </div>
+        <button href="#" class="myButton firstButton" onclick="scrollWin()" style="margin-right: 10px">Register</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="booking">
+      <img class="hotel_picture" src="image/panaroma.jpg" alt="hotel picture">
+
+      <form action="GET" method="GET" id="booking_form">
+
+
+        <label for="destination">Destination</label>
+        <input class="booking_input" type="map" id="destination" placeholder="Place or Postcode" required>
+
+        <label for="checkin">Checkin</label>
+        <input class="booking_input" type="date" id="checkin" placeholder="">
+
+        <label for="checkout">Checkout</label>
+        <input class="booking_input" type="date" id="checkout" placeholder="">
+
+        <select name="person" id="person">
+          <option value="single room">1 Adult, Single Room</option>
+          <option value="double room">2 Adult, Double Room</option>
+          <option value="massive room">Group Room</option>
+          <option value="meeting room">Meeting Room</option>
+        </select>
+
+        <button id="booking_search_button" href="#" class="myButton"
+          onClick="parent.location='booking.html'">Search</button>
+
+
+
+      </form>
+    </div>
+
+    <div id="side_by_side">
+      <img id="confidence_image" src="image/confidence.jpg" alt="book with confidence">
+      <div id="confidence">
+        <h4>Book With Confidence</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, debitis?Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Consectetur delectus perferendis fuga at magnam quidem nihil
+          quae quam odio autem ipsum suscipit impedit, repellat neque sapiente cumque? Architecto optio
+          tempore, asperiores, hic eveniet nesciunt odio ad soluta illum officia fugit modi, voluptatum
+          commodi! <span id="dots">...</span> <span id="more">It is a long established fact that a reader will
+          be distracted by the readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+          to using 'Content here, content here', making it look like readable English. Many desktop
+          publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
+          search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions
+          have evolved over the years, sometimes by accident, sometimes on purpose (injected humour
+          and the like). 
+        
+       </span><br><button onclick="myFunction()" id="readMoreBtn">Read more</button></p>
+          
+      </div>
+    </div>
+
+    <!--Card-->
+
+    <div id="cards">
+      <div class="card">
+        <img class="card_image" src="image/kids eat.jpg" alt="kids eat free">
+        <div class="container">
+          <h4>Kids Stay & Eat Free</h4>
+          <p>From Monday through Friday, kids 10 and younger can eat for free after 4 pm.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card_image" src="image/breakfast.jpg" alt="hotel lobby">
+        <div class="container">
+          <h4>Great flexibility,Great breakfast</h4>
+          <p>Migracode offers a deal with an unlimited buffet breakfast.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card_image" src="image/lobby.jpg" alt="hotel lobby">
+        <div class="container">
+          <h4>Settle to our open Lobby hotel</h4>
+          <p>Settle in to our new Open Lobby hotels.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="app">
+      <h2>Download Our App For All Platforms</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi assumenda ipsum asperiores quaerat veritatis
+        nostrum.</p>
+      <div class="app_icon">
+        <i class="fa fa-desktop" style="font-size: 36px;"> Desktop</i>
+        <i class="fa fa-mobile" style="font-size: 36px;">Mobile </i>
+      </div>
+    </div>
+
+
+    <div id="counting">
+
+      <img src="image/happy customer.jpg" style="width: 100%; height: 350px; margin-top: 20px;" alt="hotel lobby">
+      <div id="container">
+        <div class="counting_container">
+          <h1>2999</h1>
+          <p>Happy Customers</p>
+          <time datetime="15 March 2020 18:28">Last updated-15 March 2020 18:28</time>
+        </div>
+
+        <div class="counting_container">
+          <h1>194</h1>
+          <p>Room Available</p>
+          <time datetime="15 March 2020 18:28">Last updated-15 March 2020 18:28</time>
+        </div>
+
+        <div class="counting_container">
+          <h1>287498</h1>
+          <p>Query Answered</p>
+          <time datetime="15 March 2020 18:28">Last updated-15 March 2020 18:28</time>
+        </div>
+      </div>
+
+    </div>
+<script src="myScript.js"></script>
+
+  </main>
+
+
+  <footer>
+    <div class="footer footer_option">
+      <h1>About Us</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam tempora assumenda illum a distinctio!
+      </p>
+      <p>Copyright ©2020 All rights reserved|This template is made by
+      </p>
+      <span style="color: rgb(245, 95, 49);">Shahee Akond</span>
+    </div>
+
+    <div class="newsletter footer_option ">
+      <h1>Newsletter</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, soluta!</p>
+      <input type="email" placeholder="Type your email"
+        style="font-size: 20px; margin-right: 10px; border-radius: 10px;outline: none;">
+      <button type="submit" class="myButton">Send</button>
+    </div>
+
+    <div class="social_button footer_option">
+      <h1>Follow Us</h1>
+      <p>Let us be social</p>
+      <a href="#" style="color: red;" class="fa fa-facebook"></a>
+      <a href="#" style="color: red;" class="fa fa-twitter"></a>
+
+    </div>
+
+
+  </footer>
+
+  <script>
+    function scrollWin() {
+      window.scrollTo(250, 300);
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Migracode is offering free accomodation.</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="booking.css">
+</head>
+
+<body>
+    <header>
+        <div id="top_information">
+            <i class="fa fa-phone" style="color: white; margin-left: 20px; margin-top: 10px;"></i>
+            <span style="color: white;">90088387782 </span>
+            <br>
+            <br>
+            <div id="travel_hazard" >
+            <i class="fa" style="color:rgb(255, 153, 0); margin-left: 20px;"></i>
+            <a id="travel_advisory" href="https://travel.state.gov/content/travel/en/traveladvisories/ea/covid-19-information.html">Travel Advisory:Covid-19</a>
+             </div>
+            <div id="breaking_news">
+                <div id="breaking-news-container">
+                    <div id="breaking-news-colour" class="slideup animated">
+                      
+                    </div>  
+                     <span class="breaking-news-title delay-animated slidein">
+                        // BREAKING //
+                      </span> 
+                      <a class="breaking-news-headline delay-animated2 fadein marquee">
+                        Coronavirus: European Union seals borders to most outsiders                      </a>  
+                  </div>  
+            </div>
+
+            <form action="https://www.google.com/search" class="search_box" method="GET">
+                <input type="text" name="q" id="" placeholder="Search..." >
+                <button><i class="fa fa-search"></i></button>
+                </form>
+        </div>
+
+        <!--NAVBAR-->
+        <div class="topnav">
+            <img src="image/logo.jpg" style="width: 100px; float: left; height: 48px;" alt="">
+
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="booking.html">Locations</a>
+            <a href="contact.html">Contact</a>
+            <div class=" merge_button">
+                <button href="#" class="myButton firstButton" onclick="location.href='booking2.html'" style="margin-right: 10px" >Book Now</button>
+                <div class="login-container">
+                  <form action="/action_page.php">
+                    <input type="text" placeholder="Username" name="username">
+                    <input type="text" placeholder="Password" name="psw">
+                    <button type="submit">Login</button>
+                  </form>
+                </div>
+                </div>
+          </div>
+        </header>
+
+        <main>
+
+            <div class="booking_selector">
+                <h1 style="margin-left: 24px;">Select a Hotel</h1>
+
+                <div class="sort">
+                    <select name="filter" id="">
+                        <option value="">Filter</option>
+                        <option value="">Price Ascending</option>
+                        <option value="">Price Descending</option>
+                        <option value="">Free Breakfast</option>
+                    </select>
+
+                    <select name="currency" id="">
+                        <option value="">Currency</option>
+                        <option value="$">Us currency $</option>
+                        <option value="€">EU currency €</option>
+                        <option value="£">UK currency £</option>
+                    </select>
+                </div>
+
+                <div id="barcelona" class="hotel">
+                    <img src="image/barcelona.jpg" style="width: 240px; height: 176px; border-radius: 10px 0 0 10px;" alt="hotel in barcelona">
+                    
+                    <div class="container">
+                    <div>
+                        
+                        <h2><img src="image/logo.jpg" alt="logo" style="width: 40px; float: left;margin-top: 10px;">Migracode Inn Express</h2>
+                        <p>Calle Pallars 203,
+                            <br> Barcelona, 08005, Spain.
+                            <br>
+                            Reservations
+                            00800 80 80 0800
+                            <br>
+                            Front Desk
+                            34-93-4338400
+                        </p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Wireless internet</li>
+                            <li>Business Center</li>
+                            <li>No pets allowed</li>
+                            <li>Breakfast included</li>
+                        </ul>
+                    </div>
+
+                    <div class="hotel_price">
+                        <h3>From <br>€54.99</h3>
+                        
+                        <button id="barcelona_button" type="submit" class="myButton" onClick="parent.location='checkout.html'">SELECT HOTEL</button>
+                    </div>
+                </div>  
+                </div>
+
+                <!--Hotel in Madrid-->
+                <div id="madrid" class="hotel">
+                    <img src="image/madrid.jpg" style="width: 240px; height: 176px; border-radius: 10px 0 0 10px;" alt="hotel in barcelona">
+                    
+                    <div class="container">
+                    <div>
+                        <h2><img src="image/logo.jpg" alt="logo" style="width: 40px; float: left;margin-top: 10px;">Migracode Inn Express</h2>
+                        <p>Paseo De Las Acacias, 40 
+                            <br>
+                            Madrid, 28005 Spain
+                            <br>
+                            Reservations
+                            00800 80 80 0800
+                            <br>
+                            Front Desk
+                            34-91-5171828</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Wireless internet</li>
+                            <li>Business Center</li>
+                            <li>No pets allowed</li>
+                            <li>Breakfast included</li>
+                        </ul>
+                    </div>
+
+                    <div class="hotel_price">
+                        <h3>From <br>€50.99</h3>
+                        
+                        <button type="submit" class="myButton" onClick="parent.location='checkout.html'">SELECT HOTEL</button>
+                    </div>
+                </div>  
+                </div>
+
+                <!--Tenerife Hotel-->
+                <div class="hotel">
+                    <img src="image/tenerife.jpg" style="width: 240px; height: 176px; border-radius: 10px 0 0 10px;" alt="hotel in barcelona">
+                    
+                    <div class="container">
+                    <div>
+                        <h2><img src="image/logo.jpg" alt="logo" style="width: 40px; float: left;margin-top: 10px;">Migracode Inn Express</h2>
+                        <p>Av. Virgen de Guadalupe 21 
+                            <br>
+                            Playa La Enramada, La Caleta
+                            <br>
+                             Adeje, Spain
+                            <br>
+                            Reservations
+                            44 145 649 3210</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Wireless internet</li>
+                            <li>Business center</li>
+                            <li>No pets allowed</li>
+                            <li>Breakfast included</li>
+                            <li>Meeting room</li>
+                        </ul>
+                    </div>
+
+                    <div class="hotel_price">
+                        <h3>From <br>€45.99</h3>
+
+                        <button type="submit" class="myButton" onClick="parent.location='checkout.html'">SELECT HOTEL</button>
+                    </div>
+                </div>  
+                </div>
+
+            
+            </div>
+            
+            
+
+
+            
+    
+    
+
+
+    </main>
+
+
+    <footer>
+      <div class="footer">
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam tempora assumenda illum a distinctio!</p>
+        <p>Copyright ©2020 All rights reserved|This template is made by
+        </p>
+        <span style="color: rgb(245, 95, 49);" >Shahee Akond</span>
+      </div>
+
+      <div class="newslaetter" >
+        <h1>Newsletter</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, soluta!</p>
+<input type="email" placeholder="Type your email" style="font-size: 20px; margin-right: 10px; border-radius: 10px;outline: none;">
+<button type="submit" class="myButton">Send</button>
+      </div>
+
+<div class="social_button">
+  <h1>Follow Us</h1>
+  <p>Let us be social</p>
+  <a href="#" style="color: red;" class="fa fa-facebook"></a>
+  <a href="#" style="color: red;" class="fa fa-twitter"></a>
+  
+</div>
+
+
+    </footer>
+</body>
+
+</html>

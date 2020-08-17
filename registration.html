@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Migracode is offering free accomodation.</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="registration.css">
+
+
+</head>
+
+<body>
+  <header>
+    <div id="top_information">
+      <i class="fa fa-phone" style="color: white; margin-left: 20px; margin-top: 10px;"></i>
+      <span style="color: white;">90088387782 </span>
+      <br>
+      <br>
+      <div id="travel_hazard">
+        <i class="fa" style="color:rgb(255, 153, 0); margin-left: 20px;"></i>
+        <a id="travel_advisory"
+          href="https://travel.state.gov/content/travel/en/traveladvisories/ea/covid-19-information.html">Travel
+          Advisory:Covid-19</a>
+      </div>
+      <div id="breaking_news">
+        <div id="breaking-news-container" style="top: ;">
+          <div id="breaking-news-colour" class="slideup animated">
+
+          </div>
+          <span class="breaking-news-title delay-animated slidein">
+            // BREAKING //
+          </span>
+          <a class="breaking-news-headline delay-animated2 fadein marquee">
+            Coronavirus: European Union seals borders to most outsiders </a>
+        </div>
+      </div>
+      <form action="https://www.google.com/search" class="search_box" method="GET">
+        <input type="text" name="q" id="search" placeholder="Search...">
+        <button><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+
+    <!--NAVBAR-->
+    <div class="topnav">
+
+      <img src="image/logoEdited.jpg" id="nav_logo" alt="">
+      <label id="toggle_bar" for="toggle">&#9776</label>
+      <input type="checkbox" id="toggle">
+
+      <div id="responsive_nav">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="booking.html">Locations</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class=" merge_button">
+
+        <div class="login-container">
+          <form action="/action_page.php">
+            <input id="login1" type="text" placeholder="Username" name="username">
+            <input id="login2" type="text" placeholder="Password" name="psw">
+            <button class="myButton firstButton" id="nav_login_button" type="submit">Login</button>
+          </form>
+        </div>
+        <button href="#" class="myButton firstButton" onclick="scrollWin()" style="margin-right: 10px">Register</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="container_registration">
+      <form class="form-horizontal" role="form">
+        <h2>Registration</h2>
+        <div class="form-group">
+          <label for="firstName" class="col-sm-3 control-label">First Name</label>
+          <div class="col-sm-9">
+            <input type="text" id="firstName" placeholder="First Name" class="form-control" autofocus>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="lastName" class="col-sm-3 control-label">Last Name</label>
+          <div class="col-sm-9">
+            <input type="text" id="lastName" placeholder="Last Name" class="form-control" autofocus>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email" class="col-sm-3 control-label">Email* </label>
+          <div class="col-sm-9">
+            <input type="email" id="email" placeholder="Email" class="form-control" name="email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="password" class="col-sm-3 control-label">Password*</label>
+          <div class="col-sm-9">
+            <input type="password" id="password" placeholder="Password" class="form-control">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="password" class="col-sm-3 control-label">Confirm Password*</label>
+          <div class="col-sm-9">
+            <input type="password" id="password" placeholder="Password" class="form-control">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="birthDate" class="col-sm-3 control-label">Date of Birth*</label>
+          <div class="col-sm-9">
+            <input type="date" id="birthDate" class="form-control">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="phoneNumber" class="col-sm-3 control-label">Phone number </label>
+          <div class="col-sm-9">
+            <input type="phoneNumber" id="phoneNumber" placeholder="Phone number" class="form-control">
+            <span class="help-block">Your phone number won't be disclosed anywhere </span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="Height" class="col-sm-3 control-label">Height* </label>
+          <div class="col-sm-9">
+            <input type="number" id="height" placeholder="Please write your height in centimetres" class="form-control">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="weight" class="col-sm-3 control-label">Weight* </label>
+          <div class="col-sm-9">
+            <input type="number" id="weight" placeholder="Please write your weight in kilograms" class="form-control">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-3">Gender</label>
+          <div class="col-sm-6">
+              <div class="row">
+                  <div class="col-sm-4">
+                      <label class="radio-inline">
+                          <input type="radio" id="femaleRadio" value="Female">Female
+                      </label>
+                  </div>
+                  <div class="col-sm-4">
+                      <label class="radio-inline">
+                          <input type="radio" id="maleRadio" value="Male">Male
+                      </label>
+                  </div>
+              </div>
+          </div>
+    </div> <!-- /.form-group -->
+    <div class="form-group">
+      <div class="col-sm-9 col-sm-offset-3">
+        <span class="help-block">*Required fields</span>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary btn-block">Register</button>
+    </form> <!-- /form -->
+    </div> <!-- ./container_registration -->
+
+
+
+    <script src="myScript.js"></script>
+    <script src="registration.js"></script>
+
+  </main>
+
+
+  <footer>
+    <div class="footer footer_option">
+      <h1>About Us</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam tempora assumenda illum a distinctio!
+      </p>
+      <p>Copyright ©2020 All rights reserved|This template is made by
+      </p>
+      <span style="color: rgb(245, 95, 49);">Shahee Akond</span>
+    </div>
+
+    <div class="newsletter footer_option ">
+      <h1>Newsletter</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, soluta!</p>
+      <input type="email" placeholder="Type your email"
+        style="font-size: 20px; margin-right: 10px; border-radius: 10px;outline: none;">
+      <button type="submit" class="myButton">Send</button>
+    </div>
+
+    <div class="social_button footer_option">
+      <h1>Follow Us</h1>
+      <p>Let us be social</p>
+      <a href="#" style="color: red;" class="fa fa-facebook"></a>
+      <a href="#" style="color: red;" class="fa fa-twitter"></a>
+
+    </div>
+
+
+  </footer>
+
+  <script>
+    function scrollWin() {
+      window.scrollTo(250, 300);
+    }
+  </script>
+</body>
+
+</html>
+

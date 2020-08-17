@@ -1,0 +1,60 @@
+body {
+
+    background: url('image/registration_background.jpg') fixed;
+   background-size: cover;
+}
+
+
+
+*[role="form"] {
+   
+   max-width: 45vw;
+   padding: 15px;
+   margin: 0 auto;
+   border-radius: 0.3em;
+   background-color: #f2f2f2;
+}
+
+*[role="form"] h2 { 
+   font-family: 'Open Sans' , sans-serif;
+   font-size: 40px;
+   font-weight: 600;
+   color: #000000;
+   margin-top: 5%;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+}
+
+.container_registration{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-group{
+    display: flex;
+}
+.form-group input{
+    
+    width: 28vw;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+  }
+
+.col-sm-3{
+    width: 35vw;
+    text-align: right;
+    margin-top: 18px;
+    font-weight: bold;
+    font-size: 15.4px;
+  }
+
+  .help-block{
+      margin-left: 20px;
+      color: #777d78;
+  }
+
+  

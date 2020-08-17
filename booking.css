@@ -1,0 +1,75 @@
+
+body{
+    background-color: blanchedalmond;
+}
+
+main{
+   
+    margin: 20px;
+    
+
+}
+.hotel{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 10px;
+   border: 1px solid #3399FF;
+   margin-bottom: 10px;
+
+    
+}
+
+.hotel_price{
+   border-left: 1px solid #3399FF;
+  text-align: center;
+  padding: 15px; 
+  
+    
+}
+
+.container{
+    display: flex;
+  
+  
+  justify-content: space-between;
+ width: 78%;
+ margin-left: 10px;
+  
+
+}
+.sort{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+
+    
+}
+select{
+    width: 150px;
+    height: 40px;
+}
+
+.booking_form2{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.container:hover{
+    opacity: .7;
+}
+
+
+.container:focus{
+    outline: 2px solid var(--clr-primary);
+    outline-offset: 5px;
+    
+}
+.myButton:focus{
+    background: green;
+}
+::-moz-focus-inner{
+    border: 0;
+}
